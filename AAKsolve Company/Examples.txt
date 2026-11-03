@@ -1,0 +1,71 @@
+Python Example
+
+# Find square root of real or complex numbers
+# Importing the complex math module
+import cmath
+
+#num = 1+2j
+
+#To take input from the user
+num = eval(input('Enter a number: '))
+
+num_sqrt = cmath.sqrt(num)
+print('The square root of {0} is {1:0.3f}+{2:0.3f}j'.format(num ,num_sqrt.real,num_sqrt.imag))
+
+---
+C Example
+
+#include <stdio.h>
+int main() {
+    int number;
+ 
+    printf("Enter an integer: ");
+ 
+    // reads and stores input
+    scanf("%d", &number);
+
+    // displays output
+    printf("You entered: %d", number);
+ 
+    return 0;
+}
+
+---
+C++ Example
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int first_number, second_number, sum;
+ 
+  cout << "Enter two integers: ";
+  cin >> first_number >> second_number;
+
+  // sum of two numbers in stored in variable sumOfTwoNumbers
+  sum = first_number + second_number;
+
+  // prints sum
+  cout << first_number << " + " <<  second_number << " = " << sum;
+
+  return 0;
+}
+
+---
+Java Example
+
+class Main {
+
+  public static void main(String[] args) {
+ 
+    int first = 10;
+    int second = 20;
+
+    // add two numbers
+    int sum = first + second;
+    System.out.println(first + " + " + second + " = "  + sum);
+  }
+}
+
+---
